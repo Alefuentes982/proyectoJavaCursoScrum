@@ -1,0 +1,53 @@
+@media screen and (max-width: 768px){
+    .promocode-istock {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 10px;
+    }
+    .promocode-istock > div {
+        margin: 10px auto;
+    }
+}
+.promocode-istock {
+    display: flex;
+    align-items: center;
+}
+.promocode-istock.column-promocode {
+    flex-direction: column;
+    text-align: center;
+}
+
+.promocode-istock.column-promocode > div {
+    text-align: center;
+}
+
+.promocode-istock.column-promocode span, .promocode-istock.column-promocode button {
+    margin: 10px auto;
+}
+
+.promocode-istock p {
+    font-size: 13px;
+    color: #000;
+    margin-right: 12px;
+}
+
+.promocode-istock span {
+    margin-right: 12px;
+    color: #000;
+    border: 1px dashed #9E9E9E;
+    border-radius: 15px;
+    padding: 5px 15px;
+}
+
+.promocode-istock a {
+    padding: 5px 15px;
+    background: #49C8F0 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    color: #fff;
+    border: none;
+}
+
+.promocode-istock a:hover {
+    text-decoration: none;
+}
